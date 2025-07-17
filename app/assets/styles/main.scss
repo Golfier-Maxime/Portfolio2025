@@ -1,6 +1,7 @@
 
 @import './variables';
 @import './mixins';
+@import './components/header';
 
 
 .test {
@@ -18,4 +19,12 @@
     background-color: $bg-color ;
     width: 100vw;
     height: 100vh;
+    color: $text-color;
+}
+
+.container {
+    max-width: $container-width;
+    padding-left: rem(16);
+    padding-right: rem(16);
+    margin: 0 auto;
 }

@@ -1,7 +1,10 @@
 <template>
   <div class="bg-color">
     <NuxtRouteAnnouncer />
-    <Header></Header>
-    <NuxtPage />
+    <div class="container">
+      <Header></Header>
+      <NuxtPage />
+    </div>
+
   </div>
 </template>
