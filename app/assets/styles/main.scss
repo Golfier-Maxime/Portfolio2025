@@ -1,0 +1,21 @@
+
+@import './variables';
+@import './mixins';
+
+
+.test {
+    color: $text-color;
+    font-size: rem(44);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background-color: $bg-color ;
+    width: 100vw;
+    height: 100vh;
+}
