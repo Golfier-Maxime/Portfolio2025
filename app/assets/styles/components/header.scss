@@ -5,19 +5,67 @@
   background-size: 600% 600%;
   animation: gradientMove 8s ease infinite;
 }
+
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
+.header {
+  padding-top: rem(6);
+  position: sticky;
+  top: 0;
+  
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: rem(16);
+    padding-right: rem(16);
+    height: rem(60);
+
+    background-color: $grey-color;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+
+
+    
+    .header-content_logo {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .header-content_menu {
+      display: flex;
+      gap: rem(12);
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: rem(18);
+        transition: color 0.3s;
+
+        &:hover {
+          color: #d946ef;
+        }
+      }
+    }
+
+  }
+
+
 }
