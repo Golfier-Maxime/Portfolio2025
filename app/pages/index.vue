@@ -4,8 +4,10 @@ import Title from '~/components/Title.vue'
 
 <template>
     <div>
-        <h1>TEST</h1>
-        <h1>ici</h1>
+
+        <Hero></Hero>
+
+        <Currently></Currently>
 
         <Title text="Bienvenue sur mon portfolio" level="h1" customClass="title-1" />
         <Title text="Bienvenue sur mon portfolio" level="h2" customClass="title-2" />
