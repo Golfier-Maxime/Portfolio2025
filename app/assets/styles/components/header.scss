@@ -26,7 +26,7 @@
   top: 0;
   
 
-  .header-content {
+  &-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,16 +42,16 @@
 
 
     
-    .header-content_logo {
+    &_logo {
       img {
         width: 50px;
         height: 50px;
       }
     }
 
-    .header-content_menu {
+    &_menu {
       display: flex;
-      gap: rem(12);
+      gap: rem(16);
 
       a {
         color: #fff;
