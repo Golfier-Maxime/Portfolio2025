@@ -1,7 +1,10 @@
 .hero {
+    padding-top: rem(64);
+    padding-bottom: rem(64);
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    gap: rem(32);
     padding-left: rem(16);
     padding-right: rem(16);
 }

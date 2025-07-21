@@ -21,14 +21,5 @@ import Title from '~/components/Title.vue'
         <h1>TEST</h1>
         <h1>TEST</h1>
         <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
     </div>
 </template>

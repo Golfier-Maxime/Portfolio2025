@@ -1,8 +1,9 @@
 .title {
     &-1 {
-        font-size: rem(32);
+        font-size: rem(30);
         font-weight: 700;
         line-height: 1.2;
-        color: red;
+        padding-top: rem(8);
+        padding-bottom: rem(8);
     }
 }
